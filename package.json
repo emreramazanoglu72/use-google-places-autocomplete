@@ -1,0 +1,30 @@
+{
+  "name": "use-google-places-autocomplete",
+  "version": "1.0.0",
+  "description": "A custom React hook for integrating Google Places Autocomplete into your application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emreramazanoglu72/use-google-places-autocomplete.git"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "google",
+    "places",
+    "autocomplete"
+  ],
+  "author": "Emre Ramazanoğlu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emreramazanoglu72/use-google-places-autocomplete/issues"
+  },
+  "homepage": "https://github.com/emreramazanoglu72/use-google-places-autocomplete#readme",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+
+}
