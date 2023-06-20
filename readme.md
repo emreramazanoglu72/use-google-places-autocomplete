@@ -29,7 +29,7 @@ const options = {
 const apiKey = 'YOUR-GOOGLE-MAPS-API-KEY';
 
 const YourComponent = () => {
-  const { autoCompleteRef, inputRef, place } = useGooglePlacesAutocomplete(options, apiKey);
+  const { autoCompleteRef, inputRef, place } = useGooglePlacesAutocomplete(apiKey, options);
 
   // Use the autoCompleteRef, inputRef, and place values in your component
 
@@ -43,7 +43,7 @@ const YourComponent = () => {
 
 ## API
 
-### `useGooglePlacesAutocomplete(options, apiKey)`
+### `useGooglePlacesAutocomplete(apiKey, options)`
 
 The `useGooglePlacesAutocomplete` hook accepts two parameters:
 
