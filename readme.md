@@ -1,5 +1,5 @@
 
-# @priv8area/use-google-places-autocomplete
+# use-google-places-autocomplete
 
 A custom React hook for integrating Google Places Autocomplete into your application.
 
@@ -20,7 +20,7 @@ yarn add use-google-places-autocomplete
 
 ## Usage
 ```shell
-import useGooglePlacesAutocomplete from '@priv8area/use-google-places-autocomplete';
+import useGooglePlacesAutocomplete from 'use-google-places-autocomplete';
 
 const options = {
   // Autocomplete options
