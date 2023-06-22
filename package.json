@@ -1,6 +1,6 @@
 {
   "name": "use-google-places-autocomplete",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A custom React hook for integrating Google Places Autocomplete into your application.",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/emreramazanoglu72/use-google-places-autocomplete#readme",
   "dependencies": {
-    "react": "^17.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
   }
-
 }

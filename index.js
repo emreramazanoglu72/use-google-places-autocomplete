@@ -31,6 +31,8 @@ const useGooglePlacesAutocomplete = (apiKey, options) => {
       initAutocomplete();
     }
 
+    window.initMap = initAutocomplete; // Add this line
+
     function initAutocomplete() {
       autoCompleteRef.current = new window.google.maps.places.Autocomplete(
         inputRef.current,
